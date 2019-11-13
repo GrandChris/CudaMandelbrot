@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{e1bcf3e8-49c5-4cc9-b0b7-adc3b141b3b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{210989bf-d41d-424a-8f57-b26b31a24352}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mandelbrot_cpu.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CudaVertexBuffer.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="mandelbrot_gpu.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="mandelbrot.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedPointValue.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="mandelbrot_cpu.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="mandelbrot_gpu.cu">
+      <Filter>Source</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
